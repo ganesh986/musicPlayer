@@ -1,9 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.musicplayer.songs">
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayer.albums">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S7" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S8" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S9" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S10" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_songs"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/S11" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+    </LinearLayout>
+</ScrollView>

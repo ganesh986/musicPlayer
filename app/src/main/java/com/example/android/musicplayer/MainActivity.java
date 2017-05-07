@@ -30,55 +30,68 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        // Find the View that shows the numbers category
-        TextView numbers = (TextView) findViewById(R.id.numbers);
+        // Find the View that shows the numbers
+        TextView playlist = (TextView) findViewById(R.id.playlist);
 
         // Set a click listener on that View
-        numbers.setOnClickListener(new View.OnClickListener() {
+        playlist.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, playlist.class);
-                startActivity(numbersIntent);
+                Intent playlistIntent = new Intent(MainActivity.this, playlist.class);
+                startActivity(playlistIntent);
             }
         });
 
-        // Find the View that shows the family category
-        TextView family = (TextView) findViewById(R.id.family);
+        // Find the View that shows the artists
+        TextView artists = (TextView) findViewById(R.id.artists);
 
         // Set a click listener on that View
-        family.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the family View is clicked on.
+        artists.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the artists View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent familyIntent = new Intent(MainActivity.this, artists.class);
-                startActivity(familyIntent);
+                Intent artistsIntent = new Intent(MainActivity.this, artists.class);
+                startActivity(artistsIntent);
             }
         });
 
-        // Find the View that shows the phrases category
-        TextView phrases = (TextView) findViewById(R.id.phrases);
+        // Find the View that shows the albums
+        TextView albums = (TextView) findViewById(R.id.albums);
 
         // Set a click listener on that View
-        phrases.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the phrases View is clicked on.
+        albums.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the albums View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent phrasesIntent = new Intent(MainActivity.this, albums.class);
-                startActivity(phrasesIntent);
+                Intent albumsIntent = new Intent(MainActivity.this, albums.class);
+                startActivity(albumsIntent);
             }
         });
 
-        // Find the View that shows the colors category
-        TextView colors = (TextView) findViewById(R.id.colors);
+        // Find the View that shows the songs
+        TextView songs = (TextView) findViewById(R.id.songs);
 
         // Set a click listener on that View
-        colors.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the colors View is clicked on.
+        songs.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the songs View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent colorsIntent = new Intent(MainActivity.this, songs.class);
-                startActivity(colorsIntent);
+                Intent songsIntent = new Intent(MainActivity.this, songs.class);
+                startActivity(songsIntent);
+            }
+        });
+
+        // Find the View that shows the player
+        TextView player = (TextView) findViewById(R.id.player);
+
+        // Set a click listener on that View
+        player.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the help View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent playerIntent = new Intent(MainActivity.this, help.class);
+                startActivity(playerIntent);
             }
         });
     }

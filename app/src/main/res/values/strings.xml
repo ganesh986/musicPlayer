@@ -13,18 +13,31 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Music Player</string>
-
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
-    <string name="playlist">Playlsit</string>
-
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="playlist">Playlist</string>
     <string name="albums">Albums</string>
-
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="songs">Songs</string>
-
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="artists">Artists</string>
+    <string name="help">Player</string>
+    <string name="P1">Playlist Home</string>
+    <string name="P2">Playlist Work</string>
+    <string name="P3">Playlist Travel</string>
+    <string name="PPlus">Add Playlist</string>
+    <string name="A1">Rated R</string>
+    <string name="A2">Songs for the Deaf</string>
+    <string name="A3">Era Vulgaris</string>
+    <string name="S1">This Lullaby</string>
+    <string name="S2">Medication</string>
+    <string name="S3">Burn the Witch</string>
+    <string name="S4">Little Sister </string>
+    <string name="S5">Auto Pilot</string>
+    <string name="S6">Mexicola</string>
+    <string name="S7">You can\'t quit me baby</string>
+    <string name="S8">Make It Wit Chu</string>
+    <string name="S9">Sick, Sick, Sick</string>
+    <string name="S10">Era Vulgaris (Bonus track)</string>
+    <string name="S11">No One Knows</string>
+    <string name="AR1">Queens of the Stone Age</string>
+    <string name="AR2">Kasabian</string>
+    <string name="AR3">Mumford and sons</string>
 </resources>

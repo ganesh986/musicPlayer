@@ -18,52 +18,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@color/primary"
     android:orientation="vertical"
     tools:context="com.example.android.musicplayer.MainActivity">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/horiz_bar"
-        android:background="@android:color/darker_gray" />
-
     <TextView
-        android:id="@+id/numbers"
+        android:id="@+id/playlist"
         style="@style/CategoryStyle"
-        android:background="@color/buttons"
+        android:background="@color/primary_dark"
+        android:drawableLeft="@drawable/ic_action_playlist"
+        android:drawablePadding="@dimen/drawPadding"
         android:text="@string/playlist"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/horiz_bar"
-        android:background="@android:color/darker_gray" />
+        android:background="@color/primary" />
 
     <TextView
-        android:id="@+id/family"
+        android:id="@+id/artists"
         style="@style/CategoryStyle"
-        android:background="@color/buttons"
+        android:background="@color/primary_dark"
+        android:drawableLeft="@drawable/ic_action_artist"
+        android:drawablePadding="@dimen/drawPadding"
         android:text="@string/artists" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/horiz_bar"
-        android:background="@android:color/darker_gray" />
+        android:background="@color/primary" />
 
     <TextView
-        android:id="@+id/colors"
+        android:id="@+id/albums"
         style="@style/CategoryStyle"
-        android:background="@color/buttons"
+        android:background="@color/primary_dark"
+        android:drawableLeft="@drawable/ic_action_album"
+        android:drawablePadding="@dimen/drawPadding"
         android:text="@string/albums" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/horiz_bar"
-        android:background="@android:color/darker_gray" />
+        android:background="@color/primary" />
 
     <TextView
-        android:id="@+id/phrases"
+        android:id="@+id/songs"
         style="@style/CategoryStyle"
-        android:background="@color/buttons"
+        android:background="@color/primary_dark"
+        android:drawableLeft="@drawable/ic_action_songs"
+        android:drawablePadding="@dimen/drawPadding"
         android:text="@string/songs" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/horiz_bar"
+        android:background="@color/primary" />
+
+    <TextView
+        android:id="@+id/player"
+        style="@style/CategoryStyle"
+        android:background="@color/primary_dark"
+        android:drawableLeft="@drawable/ic_action_player"
+        android:drawablePadding="@dimen/drawPadding"
+        android:text="@string/help" />
 
 </LinearLayout>

@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
     tools:context="com.example.android.musicplayer.playlist">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_playlist"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/P1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_playlist"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/P2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_playlist"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/P3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableLeft="@drawable/ic_action_play_add"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/PPlus" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+    </LinearLayout>
+
+</ScrollView>
