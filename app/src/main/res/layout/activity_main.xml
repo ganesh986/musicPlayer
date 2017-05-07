@@ -26,7 +26,7 @@
         android:id="@+id/playlist"
         style="@style/CategoryStyle"
         android:background="@color/primary_dark"
-        android:drawableLeft="@drawable/ic_action_playlist"
+        android:drawableStart="@drawable/ic_action_playlist"
         android:drawablePadding="@dimen/drawPadding"
         android:text="@string/playlist"/>
 
@@ -39,7 +39,7 @@
         android:id="@+id/artists"
         style="@style/CategoryStyle"
         android:background="@color/primary_dark"
-        android:drawableLeft="@drawable/ic_action_artist"
+        android:drawableStart="@drawable/ic_action_artist"
         android:drawablePadding="@dimen/drawPadding"
         android:text="@string/artists" />
 
@@ -52,7 +52,7 @@
         android:id="@+id/albums"
         style="@style/CategoryStyle"
         android:background="@color/primary_dark"
-        android:drawableLeft="@drawable/ic_action_album"
+        android:drawableStart="@drawable/ic_action_album"
         android:drawablePadding="@dimen/drawPadding"
         android:text="@string/albums" />
 
@@ -65,7 +65,7 @@
         android:id="@+id/songs"
         style="@style/CategoryStyle"
         android:background="@color/primary_dark"
-        android:drawableLeft="@drawable/ic_action_songs"
+        android:drawableStart="@drawable/ic_action_songs"
         android:drawablePadding="@dimen/drawPadding"
         android:text="@string/songs" />
 
@@ -78,7 +78,7 @@
         android:id="@+id/player"
         style="@style/CategoryStyle"
         android:background="@color/primary_dark"
-        android:drawableLeft="@drawable/ic_action_player"
+        android:drawableStart="@drawable/ic_action_player"
         android:drawablePadding="@dimen/drawPadding"
         android:text="@string/help" />
 
