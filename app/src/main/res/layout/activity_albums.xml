@@ -42,5 +42,17 @@
             android:drawableStart="@drawable/ic_action_album"
             android:drawablePadding="@dimen/drawPadding"
             android:text="@string/A3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horiz_bar"
+            android:background="@color/primary" />
+
+        <TextView
+            style="@style/secondList"
+            android:background="@color/primary_dark"
+            android:drawableStart="@drawable/ic_action_album"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/A4" />
     </LinearLayout>
 </ScrollView>

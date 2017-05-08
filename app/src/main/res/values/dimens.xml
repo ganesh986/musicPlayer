@@ -20,6 +20,9 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="horiz_bar">6dp</dimen>
     <dimen name="drawPadding">24dp</dimen>
+    <dimen name="padding">16dp</dimen>
     <dimen name="list">72dp</dimen>
     <dimen name="secondListHeight">72dp</dimen>
+    <dimen name="margin_bottom">0dp</dimen>
+    <dimen name="margin_top">0dp</dimen>
 </resources>
