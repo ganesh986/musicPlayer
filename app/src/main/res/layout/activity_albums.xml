@@ -14,6 +14,11 @@
 
         <TextView
             style="@style/secondList"
+            android:drawablePadding="@dimen/drawPadding"
+            android:text="@string/exp1" />
+
+        <TextView
+            style="@style/secondList"
             android:background="@color/primary_dark"
             android:drawableStart="@drawable/ic_action_album"
             android:drawablePadding="@dimen/drawPadding"

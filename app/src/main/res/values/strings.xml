@@ -41,4 +41,9 @@
     <string name="AR1">Queens of the Stone Age</string>
     <string name="AR2">Kasabian</string>
     <string name="AR3">Mumford and sons</string>
+    <string name="exp1">This screen list all the Albums find in device internal storage.</string>
+    <string name="exp2">This screen list all the Artists find by the app by reading the metadata in the music files.</string>
+    <string name="exp3">In this screen users can play, pause, FF, rewind the song.\nThe app use MediaStore.Audio class.</string>
+    <string name="exp4">This screen list all the Playlists. User can add new playlist by click on \'Add Playlist\' button (a new screen will be open).</string>
+    <string name="exp5">This screen list all the  all the Songs that the app find in device internal storage.\nUsers can start song by clicking on the name.</string>
 </resources>

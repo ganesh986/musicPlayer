@@ -9,6 +9,12 @@
     tools:context="com.example.android.musicplayer.albums">
 
     <TextView
+        style="@style/secondList"
+        android:drawablePadding="@dimen/drawPadding"
+        android:text="@string/exp3"
+        android:layout_height="wrap_content"/>
+
+    <TextView
         style="@style/playerSongTitle"
         android:text="@string/S1" />
 
